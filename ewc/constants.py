@@ -1,0 +1,18 @@
+# Default parameters
+DEFAULT_DATA_DIR = "./data"
+DEFAULT_OUTPUT_DIR = "./output"
+DEFAULT_EWC_LAMBDA = 40.0
+DEFAULT_LEARNING_RATE = 0.001
+DEFAULT_EPOCHS_PER_TASK = 5
+DEFAULT_SEED = 42
+DEFAULT_FISHER_SAMPLES = 1000
+
+# Data parameter
+MNIST_MEAN = 0.1307
+MNIST_STD = 0.3081
+BATCH_SIZE = 64
+TEST_BATCH_SIZE = 1000
+
+# Model parameters
+MODEL_SAVE_NAME = "model_after_{}.pt"
+RESULTS_PLOT_NAME = "accuracy_comparison.png"
